@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Purchasing Boys T-shirts",
+        "description": "",
+        "id": "online-shopping-features;purchasing-boys-t-shirts",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10310361400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on shopping Page",
+            "match": {
+              "location": "StepDefinition.user_is_on_shopping_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3411666400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user selects categories",
+            "match": {
+              "location": "StepDefinition.user_selects_categories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 448393800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user selects age",
+            "match": {
+              "location": "StepDefinition.user_selects_age()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995889600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on product",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_product()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Online Shopping Features",
+    "description": "",
+    "id": "online-shopping-features",
+    "keyword": "Feature",
+    "uri": "Features/Shopping.features"
+  }
+]

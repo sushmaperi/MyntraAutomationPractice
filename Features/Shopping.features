@@ -1,0 +1,8 @@
+Feature: Online Shopping Features
+Scenario: Purchasing Boys T-shirts
+Given user is on shopping Page 
+When user selects categories
+And user selects age
+Then user clicks on product  
+
+
